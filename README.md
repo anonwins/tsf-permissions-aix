@@ -1,4 +1,4 @@
-# TSF Permissions AI2 Extension
+# TSF Permissions - AI2 Extension
 
 AI2 extension that just adds a specific android permission into the manifest xml.
 
