@@ -3,14 +3,14 @@ AI2 extension that just adds a specific android permission into the manifest xml
 
 You can download an .aix from the list of already compiled, or build your own extremely easily.
 
-How to use
+## How to use
 
 1. import aix to AI2 project
 2. drag into screen to enable
 
     that's it. you can check the manifest in your apk @ https://www.sisik.eu/apk-tool
 
-How to build
+## How to build from scratch
 
 1. install rush (https://github.com/shreyashsaitwal/rush-cli/wiki/Installation)
 
