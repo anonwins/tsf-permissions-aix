@@ -28,3 +28,9 @@ You can download an .aix from the list of already compiled, or build your own ex
 4. that's it. run ***rush build*** in the project's folder
     
       the aix file will be located in **/out** folder.
+
+## Similar/relevant projects
+
+1. AtomDeveloper's Manifest Generator (https://atomdeveloper.com/manifestgenerator.html)
+    
+      *note: injects code inside the **\<application>** tag so it can't be used for permissions*
