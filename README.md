@@ -36,7 +36,7 @@ You can download an .aix from the list of already compiled, or build your own ex
 
 This is just a bad idea that I brought into reality. It gives your app ALL android permissions. It works, but it's not recommended for anything. But for testing, it works. Don't publish to play store with this.
 
-## Which permissions are available?
+## Which permissions are already built & available?
 
 1. QUERY_ALL_PACKAGES -- tsf.queryallpackages.aix
 2. DOWNLOAD_WITHOUT_NOTIFICATION -- tsf.download-without-notification-permission.aix
