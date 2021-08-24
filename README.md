@@ -12,6 +12,7 @@ You can download an .aix from the list of already compiled, or build your own ex
 3. edit the */src/androidmanifest.xml* file in the project folder
 
     add the line: *\<uses-permission android:name="android.permission.YOUR_DESIRED_PERMISSION" />*
+    
     inside the *\<manifest>* tag, which means before or after the *\<application>* section.
     
 4. that's it. run *rush build* in the project's folder
