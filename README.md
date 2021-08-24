@@ -1,4 +1,5 @@
-# tsf-permissions-aix
+# TSF Permissions AI2 Extension
+
 AI2 extension that just adds a specific android permission into the manifest xml.
 
 You can download an .aix from the list of already compiled, or build your own extremely easily.
