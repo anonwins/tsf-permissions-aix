@@ -32,6 +32,10 @@ You can download an .aix from the list of already compiled, or build your own ex
      the aix file will be located in **/out** folder.
 
 
+## What is tsf.EnableAllAndroidPermissions.aix?
+
+This is just a bad idea that I brought into reality. It gives your app ALL android permissions. It works, but it's not recommended for anything. But for testing, it works. Don't publish to play store with this.
+
 ## Similar/relevant projects
 
 1. AtomDeveloper's Manifest Generator (https://atomdeveloper.com/manifestgenerator.html)
