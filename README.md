@@ -38,8 +38,8 @@ This is just a bad idea that I brought into reality. It gives your app ALL andro
 
 ## Which permissions are available?
 
-QUERY_ALL_PACKAGES -- tsf.queryallpackages.aix
-DOWNLOAD_WITHOUT_NOTIFICATION -- tsf.download-without-notification-permission.aix
+1. QUERY_ALL_PACKAGES -- tsf.queryallpackages.aix
+2. DOWNLOAD_WITHOUT_NOTIFICATION -- tsf.download-without-notification-permission.aix
 
 ## Similar/relevant projects
 
