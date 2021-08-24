@@ -23,8 +23,6 @@ You can download an .aix from the list of already compiled, or build your own ex
       ***\<uses-permission android:name="android.permission.DESIRED_PERMISSION" />***
       
       you can set multiple (comma separated) permissions
-      
-      ***\<uses-permission android:name="android.permission.DESIRED_PERMISSION,android.permission.ANOTHER_DESIRED_PERMISSION" />***
     
 4. that's it. run ***rush build*** in the project's folder
     
