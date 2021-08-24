@@ -16,4 +16,4 @@ You can download an .aix from the list of already compiled, or build your own ex
     
 4. that's it. run *rush build* in the project's folder
     
-      the aix file will be located in */out* folder.
+    the aix file will be located in */out* folder.
