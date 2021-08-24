@@ -1,7 +1,7 @@
 # tsf-permissions-aix
 AI2 extension to  just add a specific permission into the manifest.
 
-You can download an .aix from the list of already compiled, or compile your own using the source in /source folder.
+You can download an .aix from the list of already compiled, or build your own extremely easily.
 
 How to build
 
