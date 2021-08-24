@@ -1,9 +1,9 @@
 # tsf-permissions-aix
 AI2 extension that just adds a specific android permission into the manifest xml.
 
-You can download an .aix from the list of already compiled, or build your own extremely easily.
+**You can download an .aix from the list of already compiled**, or build your own extremely easily.
 
-**How to build**
+How to build
 
 1. install rush (https://github.com/shreyashsaitwal/rush-cli/wiki/Installation)
 
