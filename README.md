@@ -19,8 +19,8 @@ You can download an .aix from the list of already compiled, or build your own ex
 3. edit the **/src/androidmanifest.xml** file in the project folder
 
       add this line inside the **\<manifest>** tag, which means before or after the **\<application>** section:
-    
-      ***\<uses-permission android:name="android.permission.DESIRED_PERMISSION" />***
+
+    ***\<uses-permission android:name="android.permission.DESIRED_PERMISSION" />***
       
       you can set multiple (comma separated) permissions
     
