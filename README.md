@@ -9,7 +9,7 @@ You can download an .aix from the list of already compiled, or build your own ex
 1. import aix to AI2 project
 2. drag into screen to enable
 
-    that's it. you can check the manifest in your apk @ https://www.sisik.eu/apk-tool
+    that's it. you can check your apk's manifest @ https://www.sisik.eu/apk-tool
 
 ## How to build from scratch
 
