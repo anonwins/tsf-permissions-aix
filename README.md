@@ -33,4 +33,4 @@ You can download an .aix from the list of already compiled, or build your own ex
 
 1. AtomDeveloper's Manifest Generator (https://atomdeveloper.com/manifestgenerator.html)
     
-      *note: injects code inside the **\<application>** tag, therefore it can't be used for permissions*
+      *note: injects code inside the **\<application>** tag, therefore it can't be used for settings permissions*
