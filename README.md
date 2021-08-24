@@ -20,7 +20,10 @@ You can download an .aix from the list of already compiled, or build your own ex
 
       add this line inside the **\<manifest>** tag, which means before or after the **\<application>** section:
     
-      ***\<uses-permission android:name="android.permission.YOUR_DESIRED_PERMISSION" />***
+      ***\<uses-permission android:name="android.permission.DESIRED_PERMISSION" />***
+      
+      you can set multiple (comma separated) permissions
+      ***\<uses-permission android:name="android.permission.DESIRED_PERMISSION,android.permission.ANOTHER_DESIRED_PERMISSION" />***
     
 4. that's it. run ***rush build*** in the project's folder
     
