@@ -36,18 +36,20 @@ You can download an .aix from the list of already compiled, or build your own ex
 
    Each aix corresponds to one permission. Currently there are only two compiled:
 
-   1. QUERY_ALL_PACKAGES (tsf.queryallpackages.aix)
-   2. DOWNLOAD_WITHOUT_NOTIFICATION (tsf.download-without-notification-permission.aix)
+   - tsf.queryallpackages.aix
+        *\<uses-permission android:name="android.permission.**QUERY_ALL_PACKAGES**" />*
+        
+   . tsf.download-without-notification-permission.aix
+        *\<uses-permission android:name="android.permission.**DOWNLOAD_WITHOUT_NOTIFICATION**" />*
+   
+   . tsf-ExternalStoragePermissionsAPI30.aix
+        *\<uses-permission android:name="android.permission.**READ_EXTERNAL_STORAGE**" />
+        \<uses-permission android:name="android.permission.**MANAGE_EXTERNAL_STORAGE**" />
+        \<uses-permission android:name="android.permission.**WRITE_EXTERNAL_STORAGE**" **android:maxSdkVersion="28"** />*
+   
+   ~ tsf.EnableAllAndroidPermissions.aix (This one enables **ALL permissions! Use only for testing!**)
 
    If you compile another, please send it to lykos92+permissionaix@gmail.com and I will add it.
-
-## What is tsf.EnableAllAndroidPermissions.aix?
-
-   This is just a bad idea that I brought into reality.
-
-   It gives your app ALL android permissions.
-
-   **Only use for testing! Don't publish to play store with this!**
 
 ## Similar/relevant projects
 
