@@ -18,17 +18,19 @@ You can download an .aix from the list of already compiled, or build your own ex
 
    1. install rush (https://github.com/shreyashsaitwal/rush-cli/wiki/Installation)
 
-   2. create empty rush project by typing: ***rush create your-project-name***
+   2. create empty rush project by typing: `rush create your-project-name`
 
    3. edit the **/src/androidmanifest.xml** file in the project folder
 
-       add this line inside the **\<manifest>** tag, which means before or after the **\<application>** section:
+       add this line inside the **\<manifest>** tag:
 
-       ***\<uses-permission android:name="android.permission.DESIRED_PERMISSION" />***
+       `<uses-permission android:name="android.permission.DESIRED_PERMISSION" />`
       
-       you can set multiple (comma separated) permissions
+       you can set multiple (comma separated) permissions. example:
+       
+       `<uses-permission android:name="android.permission.DESIRED_PERMISSION,android.permission.ANOTHER_PERMISSION" />`
     
-   4. type: ***rush build*** (in the project's directory)
+   4. cd in project's directory and type: `rush build`
     
        that's it! the aix file will be produced in **/out** folder.
 
@@ -38,9 +40,9 @@ You can download an .aix from the list of already compiled, or build your own ex
    
    ### Single permissions
 
-- **tsf.queryallpackages.aix**
+   - tsf.queryallpackages.aix
 
-*\<uses-permission android:name="android.permission.QUERY_ALL_PACKAGES" />*
+        `<uses-permission android:name="android.permission.QUERY_ALL_PACKAGES" />`
         
    - tsf.download-without-notification-permission.aix
 
