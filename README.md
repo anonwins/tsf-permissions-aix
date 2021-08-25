@@ -20,19 +20,19 @@ You can download an .aix from the list of already compiled, or build your own ex
 
    2. create empty rush project by typing: `rush create your-project-name`
 
-   3. edit the **/src/androidmanifest.xml** file in the project folder
+   3. edit the ***/src/androidmanifest.xml*** file in the project folder
 
-       add this line inside the **\<manifest>** tag:
+       add this line inside the ***\<manifest>*** tag:
 
        `<uses-permission android:name="android.permission.DESIRED_PERMISSION" />`
       
-       you can set multiple (comma separated) permissions. example:
+       or you can set multiple (comma separated) permissions:
        
        `<uses-permission android:name="android.permission.DESIRED_PERMISSION,android.permission.ANOTHER_PERMISSION" />`
     
    4. cd in project's directory and type: `rush build`
     
-       that's it! the aix file will be produced in **/out** folder.
+       that's it! the aix file will be produced in ***/out*** folder.
 
 ## List of available aix files
 
