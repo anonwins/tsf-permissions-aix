@@ -40,7 +40,7 @@ You can download an .aix from the list of already compiled, or build your own ex
    
    ### Single permissions
 
-   - tsf.queryallpackages.aix(https://github.com/anonwins/tsf-permissions-aix/raw/main/tsf.queryallpackages.aix)
+   - [tsf.queryallpackages.aix](https://github.com/anonwins/tsf-permissions-aix/raw/main/tsf.queryallpackages.aix)
 
         `<uses-permission android:name="android.permission.QUERY_ALL_PACKAGES" />`
         
