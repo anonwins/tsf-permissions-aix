@@ -67,8 +67,8 @@ You can download an .aix from the list of [already compiled](#list-of-available-
 
 ---
 
-## Similar/relevant projects
+## Similar & relevant projects
 
-   1. AtomDeveloper's Manifest Generator (https://atomdeveloper.com/manifestgenerator.html)
+   - AtomDeveloper's Manifest Generator (https://atomdeveloper.com/manifestgenerator.html)
     
        *note: injects code inside the **\<application>** tag, therefore it can't be used for adding permissions*
