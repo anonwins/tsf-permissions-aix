@@ -6,6 +6,8 @@ Some of these extensions enable one permission, some of them enable multiple.
 
 You can download an .aix from the list of already compiled, or build your own extremely easily.
 
+---
+
 ## How to use
 
 1. import aix to AI2 project
@@ -13,6 +15,7 @@ You can download an .aix from the list of already compiled, or build your own ex
 
     that's it. you can check your apk's manifest @ https://www.sisik.eu/apk-tool
 
+---
 
 ## How to build from scratch
 
@@ -33,6 +36,8 @@ You can download an .aix from the list of already compiled, or build your own ex
    4. cd in project's directory and type: `rush build`
     
        that's it! the aix file will be produced in ***/out*** folder.
+
+---
 
 ## List of available aix files
 
@@ -63,6 +68,8 @@ You can download an .aix from the list of already compiled, or build your own ex
         *This one enables ALL permissions! **Use only for testing!***
 
  If you compile another, please send it to lykos92+permissionaix@gmail.com and I will add it.
+
+---
 
 ## Similar/relevant projects
 
