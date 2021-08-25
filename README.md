@@ -1,6 +1,6 @@
 # TSF Permissions - AI2 Extension Collection
 
-AI2 extensions that just add different android permissions into the manifest xml.
+AI2 extensions that just add different android permissions into the manifest xml of your app.
 
 Each extension corresponds to a permission. You can import multiple of these extensions.
 
