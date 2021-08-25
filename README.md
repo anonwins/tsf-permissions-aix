@@ -54,8 +54,8 @@ You can download an .aix from the list of already compiled, or build your own ex
 
         ```
         <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-        <uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE" />
         <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" android:maxSdkVersion="28" />
+        <uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE" />
         ```
    
    - [tsf.EnableAllAndroidPermissions.aix](https://github.com/anonwins/tsf-permissions-aix/raw/main/tsf.EnableAllAndroidPermissions.aix)
