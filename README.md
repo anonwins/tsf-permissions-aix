@@ -60,10 +60,6 @@ You can download an .aix from the list of [already compiled](#list-of-available-
        Add this line inside the ***\<manifest>*** tag:
 
        `<uses-permission android:name="android.permission.DESIRED_PERMISSION" />`
-      
-       *or* you can set multiple (comma separated) permissions:
-       
-       `<uses-permission android:name="android.permission.DESIRED_PERMISSION,android.permission.ANOTHER_PERMISSION" />`
     
    4. cd in project's directory and type: `rush build`
     
