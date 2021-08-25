@@ -24,11 +24,11 @@ You can download an .aix from the list of already compiled, or build your own ex
 
        add this line inside the ***\<manifest>*** tag:
 
-       `<uses-permission android:name="android.permission.DESIRED_PERMISSION" />`
+       ```<uses-permission android:name="android.permission.DESIRED_PERMISSION" />```
       
        or you can set multiple (comma separated) permissions:
        
-       `<uses-permission android:name="android.permission.DESIRED_PERMISSION,android.permission.ANOTHER_PERMISSION" />`
+       ```<uses-permission android:name="android.permission.DESIRED_PERMISSION,android.permission.ANOTHER_PERMISSION" />```
     
    4. cd in project's directory and type: `rush build`
     
@@ -42,21 +42,19 @@ You can download an .aix from the list of already compiled, or build your own ex
 
    - [tsf.queryallpackages.aix](https://github.com/anonwins/tsf-permissions-aix/raw/main/tsf.queryallpackages.aix)
 
-        `<uses-permission android:name="android.permission.QUERY_ALL_PACKAGES" />`
+        ```<uses-permission android:name="android.permission.QUERY_ALL_PACKAGES" />```
         
    - [tsf.download-without-notification-permission.aix](https://github.com/anonwins/tsf-permissions-aix/raw/main/tsf.download-without-notification-permission.aix)
 
-        `<uses-permission android:name="android.permission.DOWNLOAD_WITHOUT_NOTIFICATION" />`
+        ```<uses-permission android:name="android.permission.DOWNLOAD_WITHOUT_NOTIFICATION" />```
    
    ### Permission combinations
    
    - [tsf-ExternalStoragePermissionsAPI30.aix](https://github.com/anonwins/tsf-permissions-aix/raw/main/tsf-ExternalStoragePermissionsAPI30.aix)
 
-        ```
-        <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+        ```<uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
         <uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE" />
-        <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" android:maxSdkVersion="28" />
-        ```
+        <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" android:maxSdkVersion="28" />```
    
    - [tsf.EnableAllAndroidPermissions.aix](https://github.com/anonwins/tsf-permissions-aix/raw/main/tsf.EnableAllAndroidPermissions.aix)
 
