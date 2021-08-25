@@ -35,14 +35,18 @@ You can download an .aix from the list of already compiled, or build your own ex
 ## List of available aix files
 
    Here are some compiled extensions:
+   
+   ### Single permissions
 
-   - **tsf.queryallpackages.aix**
+- **tsf.queryallpackages.aix**
 
-        *\<uses-permission android:name="android.permission.QUERY_ALL_PACKAGES" />*
+*\<uses-permission android:name="android.permission.QUERY_ALL_PACKAGES" />*
         
    - **tsf.download-without-notification-permission.aix**
 
-        *\<uses-permission android:name="android.permission.DOWNLOAD_WITHOUT_NOTIFICATION" />*
+        `<uses-permission android:name="android.permission.DOWNLOAD_WITHOUT_NOTIFICATION" />`
+   
+   ### Permission combinations
    
    - **tsf-ExternalStoragePermissionsAPI30.aix**
 
@@ -55,8 +59,10 @@ You can download an .aix from the list of already compiled, or build your own ex
    - **tsf.EnableAllAndroidPermissions.aix**
 
         *This one enables ALL permissions! **Use only for testing!***
+        
+   ### New aix submissions
 
-   If you compile another, please send it to lykos92+permissionaix@gmail.com and I will add it.
+        If you compile another, please send it to lykos92+permissionaix@gmail.com and I will add it.
 
 ## Similar/relevant projects
 
