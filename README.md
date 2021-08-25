@@ -35,7 +35,9 @@ You can download an .aix from the list of already compiled, or build your own ex
 ## What is tsf.EnableAllAndroidPermissions.aix?
 
 This is just a bad idea that I brought into reality.
+
 It gives your app ALL android permissions.
+
 **Only use for testing! Don't publish to play store with this!**
 
 ## Which permissions are already built & available?
