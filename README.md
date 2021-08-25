@@ -2,7 +2,7 @@
 
 AI2 extensions that just add different android permissions into the manifest xml of your app.
 
-Each extension corresponds to a permission. You can import multiple of these extensions.
+Some of these extensions enable one permission, some of them enable multiple.
 
 You can download an .aix from the list of already compiled, or build your own extremely easily.
 
