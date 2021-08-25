@@ -27,9 +27,9 @@ You can download an .aix from the list of already compiled, or build your own ex
       
      you can set multiple (comma separated) permissions
     
-4. that's it. run ***rush build*** in the project's folder
+4. type: ***rush build*** (in the project's directory)
     
-     the aix file will be located in **/out** folder.
+     that's it! the aix file will be produced in **/out** folder.
 
 
 ## What is tsf.EnableAllAndroidPermissions.aix?
