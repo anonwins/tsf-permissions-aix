@@ -16,7 +16,7 @@ You can download an .aix from the list of already compiled, or build your own ex
 
 ## How to build from scratch
 
-   1. install rush (https://github.com/shreyashsaitwal/rush-cli/wiki/Installation)
+   1. install [rush extension builder](https://github.com/shreyashsaitwal/rush-cli/wiki/Installation)
 
    2. create empty rush project by typing: `rush create your-project-name`
 
