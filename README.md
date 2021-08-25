@@ -32,9 +32,9 @@ You can download an .aix from the list of already compiled, or build your own ex
     
        that's it! the aix file will be produced in **/out** folder.
 
-## What are all these aix files?
+## List of available aix files
 
-   Each aix corresponds to one permission. Currently there are only two compiled:
+   Here are some compiled extensions:
 
    - tsf.queryallpackages.aix
         *\<uses-permission android:name="android.permission.**QUERY_ALL_PACKAGES**" />*
