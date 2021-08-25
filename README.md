@@ -42,27 +42,25 @@ You can download an .aix from the list of already compiled, or build your own ex
 
 *\<uses-permission android:name="android.permission.QUERY_ALL_PACKAGES" />*
         
-   - **tsf.download-without-notification-permission.aix**
+   - tsf.download-without-notification-permission.aix
 
         `<uses-permission android:name="android.permission.DOWNLOAD_WITHOUT_NOTIFICATION" />`
    
    ### Permission combinations
    
-   - **tsf-ExternalStoragePermissionsAPI30.aix**
+   - tsf-ExternalStoragePermissionsAPI30.aix
 
-        *\<uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />*
+        `<uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />`
         
-        *\<uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE" />*
+        `<uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE" />`
         
-        *\<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" android:maxSdkVersion="28" />*
+        `<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" android:maxSdkVersion="28" />`
    
-   - **tsf.EnableAllAndroidPermissions.aix**
+   - tsf.EnableAllAndroidPermissions.aix
 
         *This one enables ALL permissions! **Use only for testing!***
-        
-   ### New aix submissions
 
-        If you compile another, please send it to lykos92+permissionaix@gmail.com and I will add it.
+ If you compile another, please send it to lykos92+permissionaix@gmail.com and I will add it.
 
 ## Similar/relevant projects
 
