@@ -10,10 +10,10 @@ You can download an .aix from the list of [already compiled](#list-of-available-
 
 ## How to use
 
-1. import aix to AI2 project
-2. drag into screen to enable
+1. Import aix to AI2 project.
+2. Drag into screen to enable.
 
-    that's it. you can check your apk's manifest @ https://www.sisik.eu/apk-tool
+    That's it. (You can check your apk's manifest at https://www.sisik.eu/apk-tool)
 
 ---
 
@@ -51,23 +51,23 @@ You can download an .aix from the list of [already compiled](#list-of-available-
 
 ## How to build from scratch
 
-   1. install [rush extension builder](https://github.com/shreyashsaitwal/rush-cli/wiki/Installation)
+   1. Install [rush extension builder](https://github.com/shreyashsaitwal/rush-cli/wiki/Installation)
 
-   2. create empty rush project by typing: `rush create your-project-name`
+   2. Create empty rush project by typing: `rush create your-project-name`
 
-   3. edit the ***/src/androidmanifest.xml*** file in the project folder
+   3. Edit the ***/src/androidmanifest.xml*** file in the project folder
 
-       add this line inside the ***\<manifest>*** tag:
+       Add this line inside the ***\<manifest>*** tag:
 
        `<uses-permission android:name="android.permission.DESIRED_PERMISSION" />`
       
-       or you can set multiple (comma separated) permissions:
+       *or* you can set multiple (comma separated) permissions:
        
        `<uses-permission android:name="android.permission.DESIRED_PERMISSION,android.permission.ANOTHER_PERMISSION" />`
     
    4. cd in project's directory and type: `rush build`
     
-       that's it! the aix file will be produced in ***/out*** folder.
+       That's it! The aix file will be produced in ***/out*** folder.
 
 ---
 
