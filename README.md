@@ -49,7 +49,7 @@ Each aix corresponds to one permission. Currently there are only two compiled:
 
 If you compile another, please send it to lykos92+permissionaix@gmail.com and I will add it.
 
-Also there is the **tsf.EnableAllAndroidPermissions.aix** which you should probably not use.
+Also there is the **tsf.EnableAllAndroidPermissions.aix** which you should use only for testing.
 
 ## Similar/relevant projects
 
