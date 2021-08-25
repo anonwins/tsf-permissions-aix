@@ -1,4 +1,4 @@
-# TSF Permissions - AI2 Extension
+# TSF Permissions - AI2 Extension Collection
 
 AI2 extensions that just add different android permissions into the manifest xml.
 
