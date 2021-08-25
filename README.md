@@ -40,10 +40,16 @@ It gives your app ALL android permissions.
 
 **Only use for testing! Don't publish to play store with this!**
 
-## Which permissions are already built & available?
+## What are all these aix files?
 
-1. QUERY_ALL_PACKAGES -- tsf.queryallpackages.aix
-2. DOWNLOAD_WITHOUT_NOTIFICATION -- tsf.download-without-notification-permission.aix
+Each aix corresponds to one permission. Currently there are only two compiled:
+
+   1. QUERY_ALL_PACKAGES (tsf.queryallpackages.aix)
+   2. DOWNLOAD_WITHOUT_NOTIFICATION (tsf.download-without-notification-permission.aix)
+
+If you compile another, please send it to lykos92+github@gmail.com and I will add it.
+
+Also there is the **tsf.EnableAllAndroidPermissions.aix** which you should probably not use.
 
 ## Similar/relevant projects
 
