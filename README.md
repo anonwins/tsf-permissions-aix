@@ -14,6 +14,8 @@ You can download an .aix from the list of [already compiled](#list-of-available-
 2. Drag into screen to enable.
 
     That's it. (You can check your apk's manifest at https://www.sisik.eu/apk-tool)
+    
+    (There are no blocks to use. Just import the AIX in your project.)
 
 ---
 
